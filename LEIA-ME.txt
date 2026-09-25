@@ -1,0 +1,17 @@
+URBANO ADVOGADOS — SITE
+
+Abra index.html para visualizar ou sirva esta pasta com um servidor HTTP.
+Site estático em HTML, CSS e JavaScript, sem etapa de compilação.
+
+Contato: os botões usam o WhatsApp (15) 99750-3261 do site original.
+As mensagens são preparadas no WhatsApp e só são enviadas pelo visitante.
+
+A foto e a logo foram fornecidas pelo usuário. As fontes Manrope e DM Sans são carregadas pelo Google Fonts, com alternativa local caso não haja conexão.
+
+Para publicar, envie todo o conteúdo desta pasta à hospedagem.
+Esta entrega é uma prévia local; o site não foi publicado em um domínio.
+
+CONTEÚDO SOCIAL
+Instagram: três capas reais com links para os reels de 21, 16 e 11/09/2026.
+Google: quinze avaliações ordenadas por Mais recentes em 25/09/2026. Os textos longos foram resumidos e identificados como resumos; avaliações sem texto estão identificadas. A nota agregada na consulta era 5,0 de 176 avaliações.
+O carrossel rola automaticamente, com pausa e navegação manual. O conteúdo é uma seleção estática: a busca de novas publicações e avaliações não está automatizada.
