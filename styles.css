@@ -17,3 +17,6 @@
 
 /* Mobile: texto e foto compõem um único bloco. */
 @media(max-width:760px){.hero{display:block;min-height:720px}.hero-photo{position:absolute;inset:0;height:100%;aspect-ratio:auto;background-size:cover;background-position:center center}.hero-photo:after{background:linear-gradient(180deg,rgba(11,20,36,.93) 0%,rgba(11,20,36,.82) 32%,rgba(11,20,36,.52) 48%,transparent 57%)}.hero-inner{position:relative;z-index:1;padding:36px 0 280px}.hero-description{margin:18px 0 23px}.hero-note{max-width:280px}}
+
+/* Mobile: reserva visual para a marca abaixo do conteúdo. */
+@media(max-width:760px){.hero{min-height:820px}.hero-photo{background-size:auto 850px;background-position:center 185px;background-repeat:no-repeat;background-color:var(--deep)}.hero-photo:after{background:linear-gradient(180deg,#0b1424 0%,rgba(11,20,36,.92) 25%,rgba(11,20,36,.72) 39%,transparent 52%)}.hero-inner{padding:34px 0 390px}.hero h1{font-size:32px;line-height:1.16}.hero-description{font-size:14px;line-height:1.65;max-width:390px;margin:18px 0 22px}.hero-note{font-size:10px}.hero .button{min-height:50px}}
