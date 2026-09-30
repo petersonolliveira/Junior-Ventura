@@ -1,7 +1,7 @@
-# Fábio Urbano Advogados
+# JR Ventura Advocacia
 
-Site estático em HTML, CSS e JavaScript. Sem etapa de compilação.
+Site estático em HTML, CSS e JavaScript, voltado à atuação em Direito Criminal.
 
-Para executar localmente: `python3 -m http.server 8765`.
+Para visualizar localmente: `python3 -m http.server 8765`.
 
-Instagram e avaliações são uma seleção estática de setembro de 2026.
+Contato: (11) 94131-0957 · Instagram: @jrventura.adv.
