@@ -7,3 +7,7 @@
 /* Fundo da abertura: escritório JR Ventura. */
 .hero-photo{inset:0;background-image:url("assets/escritorio-home.png");background-position:center;background-size:cover}.hero-photo:after{background:linear-gradient(90deg,rgba(11,20,36,.94),rgba(11,20,36,.82) 32%,rgba(11,20,36,.22) 70%,rgba(11,20,36,.1)),linear-gradient(0deg,rgba(11,20,36,.5),transparent 45%)}
 @media(max-width:760px){.hero{display:block}.hero-photo{position:absolute;inset:0;height:100%;background-position:64% center}.hero-photo:after{background:linear-gradient(90deg,rgba(11,20,36,.91),rgba(11,20,36,.65)),linear-gradient(0deg,rgba(11,20,36,.85),transparent)}.hero-inner{padding:56px 0 65px}.hero-caption{display:none}}
+
+/* Foto inteira na abertura; contraste restrito à coluna de texto. */
+@media(min-width:761px){.hero{min-height:clamp(610px,50vw,850px)}.hero-inner{padding:clamp(100px,10vw,175px) 0}.hero-copy{max-width:480px}.hero-description{max-width:430px}.hero-photo{background-position:center center}.hero-photo:after{background:linear-gradient(90deg,rgba(11,20,36,.92) 0%,rgba(11,20,36,.83) 28%,rgba(11,20,36,.58) 40%,transparent 53%);}}
+@media(max-width:760px){.hero{display:flex;flex-direction:column}.hero-inner{order:0;padding:40px 0 35px}.hero-photo{position:relative;inset:auto;order:1;height:auto;aspect-ratio:1678/937;background-position:center;background-size:cover}.hero-photo:after{background:none}.hero-copy{max-width:none}}
