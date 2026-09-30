@@ -14,3 +14,6 @@
 
 /* Imagem vertical exclusiva para a abertura no celular. */
 @media(max-width:760px){.hero-photo{background-image:url("assets/escritorio-mobile.png");aspect-ratio:941/1672;background-position:center;background-size:cover}.hero-photo:after{background:none}}
+
+/* Mobile: texto e foto compõem um único bloco. */
+@media(max-width:760px){.hero{display:block;min-height:720px}.hero-photo{position:absolute;inset:0;height:100%;aspect-ratio:auto;background-size:cover;background-position:center center}.hero-photo:after{background:linear-gradient(180deg,rgba(11,20,36,.93) 0%,rgba(11,20,36,.82) 32%,rgba(11,20,36,.52) 48%,transparent 57%)}.hero-inner{position:relative;z-index:1;padding:36px 0 280px}.hero-description{margin:18px 0 23px}.hero-note{max-width:280px}}
