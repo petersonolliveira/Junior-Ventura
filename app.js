@@ -4,7 +4,7 @@ function closeMenu() { menuButton.setAttribute('aria-expanded', 'false'); naviga
 menuButton.addEventListener('click', () => { const isOpen = menuButton.getAttribute('aria-expanded') === 'true'; menuButton.setAttribute('aria-expanded', String(!isOpen)); navigation.classList.toggle('is-open', !isOpen); });
 navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
 document.addEventListener('keydown', event => { if (event.key === 'Escape') { closeMenu(); menuButton.focus(); } });
-document.querySelectorAll('[data-whatsapp], [data-topic]').forEach(link => { const message = link.dataset.topic ? `Olá! Gostaria de orientação sobre ${link.dataset.topic}.` : 'Olá! Gostaria de conversar com Júnior Ventura sobre meu caso.'; link.href = `https://wa.me/5511941310957?text=${encodeURIComponent(message)}`; });
+document.querySelectorAll('a').forEach(link => { link.href = 'https://www.advforms.com.br/funnel/737117af-d9fa-4ec0-a140-402c48d69d06'; });
 document.querySelector('#year').textContent = new Date().getFullYear();
 const icons = {
 document: '<rect x="6" y="3" width="12" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/>',
